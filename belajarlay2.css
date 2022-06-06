@@ -1,0 +1,30 @@
+body, h2, h1 {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: azure;
+    align-items: center;
+}
+.menu-nav {
+    display: flex;
+    gap: 15px;
+}
+.banner {
+    display: flex;
+    padding: 0 60px;
+    margin-top: 30px;
+}
+.caption {
+    width: 500px;
+    height: 200px;
+}
+.caption h1 {
+    font-size: 4em;
+}
+.banner img {
+    width: 700px;
+}
